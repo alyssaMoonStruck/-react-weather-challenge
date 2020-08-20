@@ -1,13 +1,13 @@
 import React from 'react'
 
-const TopLine = ({ label2, value2 }) => {
+const TopLine = ({ conditions, variables }) => {
     return (
-        <p className="line2">
-            <span className="label2">
-                {label2}
+        <p className="split">
+            <span className="conditions">
+                {conditions}
             </span>
-            <span className="value2">
-                {value2}
+            <span className="variables">
+                {variables}
             </span>
         </p>
     )
